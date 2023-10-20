@@ -108,7 +108,8 @@ input {
 }
 
 .img2:hover {
-    width: 31%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .section3 {
@@ -125,7 +126,7 @@ input {
 }
 
 .img3:hover {
-    height: 160px;
+    border: 2px solid black;
 }
 
 h3 {
@@ -149,13 +150,15 @@ h3 {
 
 }
 
+.subs:hover{
+    border: 2px solid black;
+}
+
 .img4 {
     height: 120px;
 }
 
-.img4:hover {
-    height: 130px;
-}
+
 
 .price {
     display: flex;
